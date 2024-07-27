@@ -1,4 +1,4 @@
-ame: Executable Build
+name: Executable Build
 
 on:
   push:
