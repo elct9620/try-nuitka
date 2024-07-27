@@ -1,0 +1,202 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "clang@latest": {
+      "last_modified": "2024-07-07T07:43:47Z",
+      "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#clang",
+      "source": "devbox-search",
+      "version": "17.0.6",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0d63xsjpnrx6rvmih9jafh5ix8q52c1k-clang-wrapper-17.0.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0d63xsjpnrx6rvmih9jafh5ix8q52c1k-clang-wrapper-17.0.6"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jbm7b0gdxrjbbyh8rvkfp7xdm0s4saaj-clang-wrapper-17.0.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jbm7b0gdxrjbbyh8rvkfp7xdm0s4saaj-clang-wrapper-17.0.6"
+        }
+      }
+    },
+    "python311Packages.nuitka@latest": {
+      "last_modified": "2024-07-24T00:53:51Z",
+      "resolved": "github:NixOS/nixpkgs/4f02464258baaf54992debfd010a7a3662a25536#python311Packages.nuitka",
+      "source": "devbox-search",
+      "version": "2.2.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vl47xn4g4zhmlphlfyb68dhcmc7ynac2-python3.11-nuitka-2.2.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/dn9555rgcyipp5b4fchp7fp1gk1vrksm-python3.11-nuitka-2.2.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/vl47xn4g4zhmlphlfyb68dhcmc7ynac2-python3.11-nuitka-2.2.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/81i1b83bhwcr22r3ncn65nxzn7qj9l30-python3.11-nuitka-2.2.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/hh0k0v6bydpqx94fa088ggwi2y4r6pbv-python3.11-nuitka-2.2.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/81i1b83bhwcr22r3ncn65nxzn7qj9l30-python3.11-nuitka-2.2.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s9x0fxhzqf2j9bb9qhb04473sh5qhlsp-python3.11-nuitka-2.2.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/s2ky9dfl13zxcvq1i4m5j56xvwc6nnz4-python3.11-nuitka-2.2.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/s9x0fxhzqf2j9bb9qhb04473sh5qhlsp-python3.11-nuitka-2.2.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a8v6w647cd7c2qw9c6dk94yn0d1grlq8-python3.11-nuitka-2.2.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/khr74j2x3258wny1m31hdwm8n3fraz6p-python3.11-nuitka-2.2.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/a8v6w647cd7c2qw9c6dk94yn0d1grlq8-python3.11-nuitka-2.2.3"
+        }
+      }
+    },
+    "python311Packages.pyside6@latest": {
+      "last_modified": "2024-07-07T07:43:47Z",
+      "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#python311Packages.pyside6",
+      "source": "devbox-search",
+      "version": "6.7.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6gy159cpa77nijpmdpq7f2r0m5q59b84-pyside6-6.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6gy159cpa77nijpmdpq7f2r0m5q59b84-pyside6-6.7.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cm8wzfnyppkz1giwhn7p4n1kdly4k16z-pyside6-6.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cm8wzfnyppkz1giwhn7p4n1kdly4k16z-pyside6-6.7.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wcljvs6n3w2rsb6301231ybary7l162b-pyside6-6.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wcljvs6n3w2rsb6301231ybary7l162b-pyside6-6.7.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jy9gbqablkn5cs26dnpvqkj2vhi6khfd-pyside6-6.7.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jy9gbqablkn5cs26dnpvqkj2vhi6khfd-pyside6-6.7.2"
+        }
+      }
+    },
+    "python@3.11": {
+      "last_modified": "2024-06-12T20:55:33Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/a9858885e197f984d92d7fe64e9fff6b2e488d40#python3",
+      "source": "devbox-search",
+      "version": "3.11.9",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/327bf08j5b7l9cnzink3g4vp32y5352j-python3-3.11.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/327bf08j5b7l9cnzink3g4vp32y5352j-python3-3.11.9"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q3x28mimkawkdjlvd78jxv3s0fk25vz8-python3-3.11.9",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/kl8hjhf6x7dz7brs1ylkxy26qb8argaq-python3-3.11.9-debug"
+            }
+          ],
+          "store_path": "/nix/store/q3x28mimkawkdjlvd78jxv3s0fk25vz8-python3-3.11.9"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9lcbaggnygcqpgzakib5lwisks8gnn5i-python3-3.11.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9lcbaggnygcqpgzakib5lwisks8gnn5i-python3-3.11.9"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6b1fqdwb3g56j5pazv8zkx9qd0mv3wiz-python3-3.11.9",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/61rzpp3v8dsf6h17h3jnnwlm5hwc2brr-python3-3.11.9-debug"
+            }
+          ],
+          "store_path": "/nix/store/6b1fqdwb3g56j5pazv8zkx9qd0mv3wiz-python3-3.11.9"
+        }
+      }
+    }
+  }
+}
