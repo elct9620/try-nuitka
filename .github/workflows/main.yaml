@@ -30,6 +30,7 @@ jobs:
           onefile: true
           enable-plugins: pyside6
           disable-console: true
+          macos-create-app-bundle: true
 
       # Uploads artifact
       - name: Upload Artifacts
