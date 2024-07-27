@@ -28,7 +28,7 @@ jobs:
         with:
           script-name: main.py
           onefile: true
-          enable-plugins: pyside6,numpy
+          enable-plugins: numpy
           disable-console: true
           macos-create-app-bundle: true
 
